@@ -1,0 +1,129 @@
+.header {
+  padding: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right ,#0d1e2e, #2d384a);
+  font-size: 30px;
+      color: white;   
+}
+
+.header img{
+  float: left;
+  width: 100px;
+  height: 100px;
+margin: -30px 2px;
+
+}
+
+
+.header button { 
+  float: right;
+font-family: 'Limelight', cursive;
+  border:none;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 16px;
+  margin: -6px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  background-color: #d2d2d2;
+  color: black;
+  font: roboto;
+}
+
+.header button:hover {
+  background-color: #fe4b2a;
+  color: white;
+}
+
+
+
+
+
+body{background:#344756;margin:0;padding:0}
+
+.example { 
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+
+background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 0, 0, 0) 38.87%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #007089 49.48%, #FF005C 100%), radial-gradient(100% 233.99% at 0% 100%, #6D3B00 0%, #8FFF00 100%), linear-gradient(307.27deg, #219D87 0.37%, #93C32E 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #760000 100%);
+background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;;
+    overflow: hidden;
+  z-index: -1;
+}
+.example img { 
+    position: absolute;
+    background: #666;
+    overflow: hidden;
+    cursor: pointer;
+    left: 100%;
+    border-radius: 25px;
+    border:none;
+  z-index: -1;
+}
+.example span {
+    position: absolute;
+    color: #efe;
+    font-family: verdana;
+    font-size: 0px;
+    white-space: nowrap;
+    left: -999px;
+    background: #333;
+   
+    background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  font-family: 'Limelight', cursive;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right ,#0d1e2e, #2d384a);
+  color: white;
+  text-decoration: none;
+
+  text-align: center;
+    font-size: 17px;
+
+}
+
+.footer a:hover {
+  background-color: none;
+  color: #fa4d27;
+
+}
+
+.topnav {
+  float: center;
+  font-family: 'Roboto', sans-serif;
+  color: #f2f2f2;
+  font-family: 'Limelight', cursive;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: inherit; /* no underline */
+
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #d2d2d2;
+
+}
+
+.topnav a.active {
+  background-color: none;
+  color: #fe4b2a;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}

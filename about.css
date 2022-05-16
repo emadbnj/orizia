@@ -1,0 +1,103 @@
+.header {
+  padding: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right ,#0d1e2e, #2d384a);
+  font-size: 30px;
+      color: white;   
+}
+
+.header img{
+  float: left;
+  width: 100px;
+  height: 100px;
+margin: -30px 2px;
+
+}
+
+
+.header button { 
+  float: right;
+  border:none;
+  font-family: 'Limelight', cursive;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 16px;
+  margin: -6px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  background-color: #d2d2d2;
+  color: black;
+}
+
+.header button:hover {
+  background-color: #fe4b2a;
+  color: white;
+}
+
+
+
+
+
+body{background:#344756;margin:0;padding:0}
+
+.footer {
+  position: fixed;
+  left: 0;
+  font-family: 'Limelight', cursive;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right ,#0d1e2e, #2d384a);
+  color: white;
+  text-decoration: none;
+
+  text-align: center;
+    font-size: 17px;
+
+}
+
+.footer a:hover {
+  background-color: none;
+  color: #fa4d27;
+
+}
+
+.topnav {
+  float: center;
+  font-family: 'Limelight', cursive;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: inherit; /* no underline */
+
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #d2d2d2;
+
+}
+
+.topnav a.active {
+  background-color: none;
+  color: #fe4b2a;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+
+.u-section-1 .u-image-1 {
+  width: 180px;
+  height: 200px;
+  background-image: url("https://raw.githubusercontent.com/emadbnj/photo/main/example61/images/avatar.jpg");
+  background-position: 0% 50%;
+  margin: 20px 50px;
+  float: left ;
+  border-radius:25px;
+  color: white;
+}
